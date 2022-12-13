@@ -110,3 +110,96 @@ print(l1.remove(8))'''
 
 #tupels in pyhton = immutabke data type in python 
 
+
+#Chapter 5 Sets and Dictionary in python
+#dictionary is a collection of key value pair in python
+#Syntax :
+
+'''MyLis= {"key":"value",
+      "Harry":"Coding",
+      "Vighnesh":"Smart",
+      "Today":"good day",
+      "Int":"123",
+      "List":"[1,2,abc,apple]"
+      }
+      
+print(MyLis["key"])
+print(MyLis["List"])'''
+
+#Properties of a python dictionary
+'''1.Its Unordered 
+2.Its unmutable 
+3.Its is indexed
+4.Cant contain dublicate keys 
+
+Dictionary Methods 
+consider the following '''
+
+ 
+ 
+'''alis = {"name":"Harry",
+        "Walchand" :"College",
+        "Vighnesh" : "Potdar",
+        }
+
+print(alis.items()) #dict items (a list of key value pairs )
+print(alis.keys())#gives list of dictionary keys 
+alis.update({"MSR":"VSR"})#adds a new pair to the Dict
+print(alis)
+print(alis.get("MSR"))'''
+
+'''SETS IN PYTHON'''
+'''S = set()#....?
+S.add(1)
+S.add(2)
+print(S)'''
+#Properties of SETS
+#1.Unordered 
+#2.Unindexed 
+#3.We cant change  a item in a set 
+#Operations on sets
+'''S1 = {1,8,2,3}
+print(len(S1))
+print(S1.remove(8))
+print(S1.pop)
+print(S1.union({8,11}))
+#print(S1.clear)
+print(S1.intersection({8,11}))'''
+
+#                    '''Chapter Set 5 Practice Set 
+
+#@1'''Hindi to English Dictionary
+DicHtE = {"mera": "my",
+          "tera": "your",
+          "How " : "Kese",
+          } 
+Inkey  = input("Enter the word")
+print(DicHtE.get(Inkey)) '''DicHtE = {
+    "mera":"my",
+    "tera":"your",
+    "Kese":"How"
+    
+} 
+Inkey  = input("Enter the word : ")
+print(DicHtE.get(Inkey)) '''
+
+#@6 create a dictionary for 4 friends to enter their name and favourite language as key value pairs 
+
+Name1 = input("The name is ") 
+#Name2 = input("The name is ")
+#Name3 = input("The name is ")
+#Name4 = input("The name is ")
+
+'''DicO = {"Name":"Language"}
+
+N1Lang = input("The favourite language is ")
+#N2Lang = input("The favourite language is ")
+#N3Lang = input("The favourite language is ")
+#N4Lang = input("The favourite language is ")
+print(DicO.update({"Name1" : "N1Lang"}))
+print(DicO.get("Name1"))'''
+
+
+
+
+
